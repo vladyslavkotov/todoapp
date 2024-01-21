@@ -1,0 +1,67 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.item {
+background-color: #ecf5ff;
+}
+
+.item:hover {
+   background-color: #d9e8fa;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+   margin-bottom: 60px;
+}
+
+.container {
+   margin-top: 20px;
+   align-content: center;
+   max-width: 60%;
+}
+
+a, a:active, a:visited, a:link {
+   text-decoration: none;
+   color: black;
+}
+
+button {
+   border: none;
+   padding: 0;
+   background: none;
+   cursor: pointer;
+}
+
+.col-button{
+   width:5%;
+}
+
+.delete-button {
+   display: inline;
+   margin-right: 0px;
+}
+
+.created{
+   width: 15%;
+   font-size:small;
+   color:grey;
+}
+
+.text {
+   width: 65%;
+}
